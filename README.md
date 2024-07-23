@@ -6,7 +6,7 @@ Welcome to the Snake Game! This is a classic snake game implemented using Python
 - [Features](#features)
 - [Installation](#installation)
 - [How to Play](#how-to-play)
-- [Project Structure](#project-structure)
+
 
 
 ## Overview
@@ -31,12 +31,3 @@ This is a Python implementation of the classic Snake Game using the Turtle graph
    ```bash
    python main.py
    
-## Project Structure:
-snake-game/
-│
-├── main.py           # The main script that initializes the game and handles the game loop.
-├── snake.py          # Contains the Snake class and its methods.
-├── food.py           # Contains the Food class and its methods.
-├── scoreboard.py     # Contains the Scoreboard class and its methods.
-├── requirements.txt  # Lists the required Python packages.
-└── README.md         # This file, providing an overview of the project.
