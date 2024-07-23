@@ -7,9 +7,11 @@ Welcome to the Snake Game! This is a classic snake game implemented using Python
 - [Installation](#installation)
 - [How to Play](#how-to-play)
 - [Project Structure](#project-structure)
-- [Code Explanation](#code-explanation)
-- [Credits](#credits)
-- [License](#license)
+
+
+## Overview
+
+This is a Python implementation of the classic Snake Game using the Turtle graphics module. The game involves controlling a snake to eat food that appears randomly on the screen. Each time the snake eats the food, it grows longer, and the player's score increases. The game ends if the snake collides with the walls or with its own tail.
 
 ## Features
 
@@ -23,3 +25,18 @@ Welcome to the Snake Game! This is a classic snake game implemented using Python
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/karimtz999/Snake_Game_project_v2.git
+## How to Play
+
+1. **Run the Game:**
+   ```bash
+   python main.py
+   
+## Project Structure:
+snake-game/
+│
+├── main.py           # The main script that initializes the game and handles the game loop.
+├── snake.py          # Contains the Snake class and its methods.
+├── food.py           # Contains the Food class and its methods.
+├── scoreboard.py     # Contains the Scoreboard class and its methods.
+├── requirements.txt  # Lists the required Python packages.
+└── README.md         # This file, providing an overview of the project.
